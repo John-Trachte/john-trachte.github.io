@@ -1,10 +1,10 @@
 :root {
-    --light_1: #FAFAFA;
-    --light_2: #EEEEEE;
-    --dark_2:  #616161;
-    --dark_1:  #333333;
+    --light_1: #d3c6aa;
+    --light_2: #d3c6aa;
+    --dark_2:  #4b565c;
+    --dark_1:  #2d353b;
 
-    --attn:    #b8bb26;
+    --attn:    #a7c080;
 }
 
 * {
@@ -27,10 +27,10 @@ footer {
 }
 
 a, a:visited {
-    color: var(--light);
+    color: var(--light_1);
 }
 
-.resume_link {
+.important_link {
     color: var(--attn) !important;
     font-weight: bold;
 }
